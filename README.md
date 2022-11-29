@@ -12,14 +12,17 @@ Finally, an anomaly detection method for sentiment time series based on a salien
 **keywords**: Sentiment Time Series, Time Series Anomaly Detection, Deep Clustering, Saliency Map
 
 ## Overview of Sentiment Time Series
-![image](https://user-images.githubusercontent.com/69694512/204590330-7bab809d-bcf2-4447-9784-030146516c34.png)
+![image](https://user-images.githubusercontent.com/69694512/204591802-6fe68477-c8e0-40e7-95d8-b88eb7c56d51.png)
+
 
 ## Sentiment Time Series Correction Method Based on Deep Clustering
-![image](https://user-images.githubusercontent.com/69694512/204590627-0f894f60-627c-48af-80ca-cce011692838.png)
+![image](https://user-images.githubusercontent.com/69694512/204591890-e929e4cf-124e-4c9b-9a34-fbce709d01df.png)
+
 
 ## Anomaly Detection Method based on Sentiment Time Series
-![image](https://user-images.githubusercontent.com/69694512/204591122-e220cb33-034d-43bb-be16-fa0058dee1e7.png)
-![image](https://user-images.githubusercontent.com/69694512/204591187-ae3e3938-8570-4726-a99e-8833ee2a7b1f.png)
+![image](https://user-images.githubusercontent.com/69694512/204591992-2ab8e259-e568-4fe9-aad4-5650150891ba.png)
+![image](https://user-images.githubusercontent.com/69694512/204592027-bf4f9a43-18f0-4f63-8031-c80137979fbc.png)
+
 
 ## Summary
 This thesis mainly adopts deep clustering to obtain representative subsets and uses residual maps to make predictions on time series data. The simulation results show that the sentiment value is corrected to get the desired values based on accuracy and precision metrics. In this experimental dataset, the anomaly detection algorithm based on the residual map SR-DOUBLE reduces the ERR (7.2%,4.8%), and improves the AP (20.3,13.8) metrics compared to the conventional SR and SR-FORWARD. These results indicate our research is practical and be executed to applications.
